@@ -1,0 +1,31 @@
+.form {
+  border: 1px solid black;
+  width: 400px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+label {
+}
+.add_Btn {
+  margin-top: 10px;
+}
+input {
+  display: block;
+}
+
+.name_input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.name_input > span,
+.number_input > span {
+  font-size: 22px;
+}
+
+button {
+  cursor: pointer;
+}
